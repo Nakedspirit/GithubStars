@@ -51,12 +51,10 @@ class HrefContentError(Exception):
 
 
 class GitHub:
-    """Creates a GitHub instance for listing the stargazers of a given repository.
-    The constructor requires a string of the following form: `username/repository`,
-    both representing the GitHub meaning of them.
+    """
+    Creates a GitHub instance for listing the stargazers of a given repository.
     """
     __GITHUB_URL: str = "https://api.github.com/repos"
-    # __GITHUB_TOKEN = "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"
     __PAGE_SUFFIX: str = "?page="
     __QUERY_LIMIT = 30  # GitHub API search results limit
 
