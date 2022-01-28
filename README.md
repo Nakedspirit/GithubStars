@@ -29,15 +29,11 @@ python3 github_stars.py -i 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 -u groner -r
 
 List of arguments:
 
--h, --help show this help message and exit
--i TOKEN, --token TOKEN
-Github API token
--u USERNAME, --username USERNAME
-repository owner's username
--r REPOSITORY, --repository REPOSITORY
-repository
--o OUTPUT, --output OUTPUT
-path to the output csv file
+* -h, --help       help message and exit
+* -i, --token      Github API token
+* -u, --username   repository owner's username
+* -r, --repository repository name
+* -o, --output     path to the output csv file
 
 ## How it works
 
